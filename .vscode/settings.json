@@ -1,0 +1,14 @@
+{
+  // デフォルトのフォーマッターをprettierに設定
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //  保存時にデフォルトでフォーマット
+  "editor.formatOnSave": false,
+  // 保存時のフォーマット内容
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // prismaのフォーマットの設定
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
+}
